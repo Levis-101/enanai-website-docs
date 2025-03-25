@@ -1,0 +1,8 @@
+# Site settings
+title: ENANAI Website Documentation
+description: Documentation and sitemap planning for ENANAI boutiques website
+theme: jekyll-theme-minimal
+baseurl: "/enanai-website-docs"
+
+# Build settings
+markdown: kramdown
