@@ -1,0 +1,25 @@
+name: Bug Report
+description: Report a problem with the documentation site
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting an issue!
+        Last updated: 2025-03-25 22:54:49
+  - type: input
+    id: page-url
+    attributes:
+      label: Page URL
+      description: Which page has the issue?
+      placeholder: https://Levis-101.github.io/enanai-website-docs/...
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Issue Description
+      description: What's not working correctly?
+    validations:
+      required: true
